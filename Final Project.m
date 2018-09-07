@@ -1,15 +1,15 @@
-function varargout = Samreen(varargin)
-% SAMREEN MATLAB code for Samreen.fig
-%      SAMREEN, by itself, creates a new SAMREEN or raises the existing
+function varargout = Saurabh(varargin)
+% SAURABH MATLAB code for Samreen.fig
+%      SAURABH, by itself, creates a new SAMREEN or raises the existing
 %      singleton*.
 %
-%      H = SAMREEN returns the handle to a new SAMREEN or the handle to
+%      H = SAURABH returns the handle to a new SAMREEN or the handle to
 %      the existing singleton*.
 %
-%      SAMREEN('CALLBACK',hObject,eventData,handles,...) calls the local
+%      SAURABH('CALLBACK',hObject,eventData,handles,...) calls the local
 %      function named CALLBACK in SAMREEN.M with the given input arguments.
 %
-%      SAMREEN('Property','Value',...) creates a new SAMREEN or raises the
+%      SAURABH('Property','Value',...) creates a new SAMREEN or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
 %      applied to the GUI before Samreen_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
@@ -20,7 +20,7 @@ function varargout = Samreen(varargin)
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help Samreen
+% Edit the above text to modify the response to help Saurabh
 
 % Last Modified by GUIDE v2.5 15-Feb-2018 20:39:05
 
@@ -43,8 +43,6 @@ else
 end
 % End initialization code - DO NOT EDIT
 
-
-% --- Executes just before Samreen is made visible.
 function Samreen_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
@@ -58,7 +56,6 @@ handles.output = hObject;
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes Samreen wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
